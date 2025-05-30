@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE+edge">
+    <meta name="viewerport" content="width=device-width,initial-scale=1.0">
+
+    <title>VTY Electronics</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="ubuntl.css">
+    <script src="ubuntl.js"></script>
+
+</head>
+
+<body>
+    <!--header-->
+    
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white w-100">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728746287/pixelcut-export_9_puz3uk.png" class="header logo" style="height:5vh; width:8vw;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav" id="navbar">
+                <div><a class="nav-link" href="#">Home</a></div>
+                <div><a class="nav-link" href="#">Shop</a></div>
+                <div><a class="nav-link active" href="#">About</a></div>
+                <div><a class="nav-link" href="#">Contact</a></div>
+                <div><a class="nav-link" href="#">Cart</a></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+  
+  
+    <!--hero-->
+    <section id="page-header" class="about-header">
+        <h2>#knowUs</h2>
+        <p>Your One-Stop Shop for Quality Electronics at Unbeatable Prices!</p>
+    </section>
+
+<section id="about-head" class="section-p1">
+    <img src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728734675/pikaso_text-to-image_Candid-image-photography-natural-textures-highly-r_aiufih.jpg" alt="">
+    <div>
+        <h2>Who we are?</h2>
+        <p>Welcome to our online electronics store, your one-stop destination for the latest in technology and gadgets. We offer a wide range of high-quality electronics, from cutting-edge smartphones and powerful laptops to home entertainment systems and smart home devices. Our mission is to provide you with the best products at competitive prices, backed by exceptional customer service and fast shipping. Whether you’re a tech enthusiast, a professional, or just looking for the perfect gift, we have something for everyone. Explore our collection and experience the convenience of shopping for electronics from the comfort of your home.</p>
+        <abbr title="">Electronic Shop project. Without them, the project would not 
+            have achieved the same level of functionality, security, and design quality.</abbr>
+            <br><br>
+            <marquee bgcolor="#c4baba" loop="-5" scrollamount="5" width="100%">Electronic Shop project. Without them, the project would not have achieved the same level of functionality, security, and design quality.</marquee>
+    </div>
+</section>
+
+<section id="about-app" class="section-p1">
+    <h1>Download Our <a href="#">App</a></h1>
+    <div class="video">
+        <video autoplay muted loop src="img/about/1.mp4"></video>
+    </div>
+</section>
+
+ <!--feature-->
+ <section id="feature" class="section-p1">
+    <div class="fe-box">
+        <img src="img/features/f1.png" alt="" />
+        <button><a href="">Free Shipping</a></button>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f2.png" alt="" />
+        <button><a href="">Online Order</a></button>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f3.png" alt="" />
+        <button><a href="">Save Money</a></button>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f4.png" alt="" />
+        <button><a href="">Promotions</a></button>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f5.png" alt="" />
+        <button><a href="">Happy Sell</a></button>
+    </div>
+    <div class="fe-box">
+        <img src="img/features/f6.png" alt="" />
+        <button><a href="">24/7 Support</a></button>
+    </div>
+</section>
+
+   <!--news-->
+<!-- Sign Up Section -->
+<section id="newspaper" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form" id="registrationForm">
+      <input type="text" placeholder="Your email address" id="email" required>
+      <button class="normal" onclick="signUp()">Sign Up</button>
+    </div>
+  </section>
+  
+  <!-- Modal (Initially Hidden) -->
+  <div class="modal1" id="signupModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Thank You for Signing Up!</h5>
+          <button type="button" class="close" onclick="closeModal()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>You've been subscribed successfully.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="closeModal()">Okay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    <!--footer-->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728746287/pixelcut-export_9_puz3uk.png" style="height:5vh;width:8vw;" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>Navalur, Kanchipuram, Chennai</p>
+            <p><strong>Phone:</strong>+91 7200380334 /+91 6379645314</p>
+            <p><strong>Hours:</strong>10:00 am - 9:00 pm, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="contact.html">Contact us</a>
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="login.html">Sign in</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728633920/app_httt5i.jpg" alt="">
+                <img src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728633915/play_vvggd4.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateways </p>
+            <img src="https://res.cloudinary.com/dmrzseo7n/image/upload/v1728633915/pay_v99sxs.png" alt="">
+
+        </div>
+
+        <div class="Copyright">
+            <p>@ 2021, Tech etc-electronic store</p>
+        </div>
+    </footer>
+
+
+
+<!-- Enhanced Modals for Each Feature -->
+   <div id="freeShippingModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('freeShippingModal')">&times;</span>
+        <h2 class="modal-header">Free Shipping</h2>
+        <div class="modal-body">
+            <div class="text-section">
+                <p><strong>Benefit</strong>: Enjoy free shipping on select items.</p>
+                <p><strong>Coverage</strong>: Available for orders within specific regions.</p>
+                <p><strong>Delivery Speed</strong>: Faster delivery with priority processing.</p>
+                <p><strong>Track your order</strong>:Real-time tracking is available for all shipped orders, so you’ll know exactly when to expect your purchase. </p>
+                <p><strong>Eco-Friendly Shipping</strong>: We prioritize eco-friendly packaging and transport options to minimize our environmental impact.</p>
+                
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/Free Shipping.mp4" type="video/mp4" allowfullscreen>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div id="newspaper" class="section-p1 section-m1 form" >
+                <input type="text" placeholder="Your email address" id="email" required>
+                <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+            </div>
+            <button id="modal"><a href="shop.html">Shop Now</a></button>
+
+        </div>
+    </div>
+</div>
+
+<div id="onlineOrderModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('onlineOrderModal')">&times;</span>
+        <h2 class="modal-header">Online Order</h2>
+        <div class="modal-body">
+            <div class="text-section">
+                <p><strong>Effortless Browsing</strong>: Find thousands of products with ease.</p>
+                <p><strong>Secure Checkout</strong>: SSL-encrypted for privacy.</p>
+                <p><strong>Customizable Cart</strong>: Save items, create wish lists, and more.</p>
+                <p><strong>Order Notifications</strong>: Receive SMS and email alerts on the status of your order.</p>
+                <p><strong>Easy Reordering</strong>: Keep track of your past orders and reorder your favorite products with a click.</p>
+                
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/Online Order.mp4" type="video/mp4" allowfullscreen>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="newspaper" class="section-p1 section-m1 form" >
+                <input type="text" placeholder="Your email address" id="email" required>
+                <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+            </div>
+            <button id="modal"><a href="shop.html">Shop Now</a></button>
+
+        </div>
+    </div>
+</div>
+
+<div id="saveMoneyModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('saveMoneyModal')">&times;</span>
+        <h2 class="modal-header">Save Money</h2>
+        <div class="modal-body">
+            <div class="text-section">
+                <p><strong>Exclusive Discounts</strong>: Enjoy special deals and member-only offers.</p>
+                <p><strong>Bundle Deals</strong>: Save more by purchasing bundles or sets.</p>
+                <p><strong>Loyalty Points</strong>: Earn points and redeem them for discounts.</p>
+                <p><strong>Loyalty Points</strong>: Earn points with every purchase and redeem them for future discounts or free items.</p>
+                <p><strong>Subscription Savings</strong>: SEnjoy further savings on products you subscribe to, ensuring you never run out of essentials.</p>
+                
+            
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/saving money.mp4" type="video/mp4" allowfullscreen>
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div id="newspaper" class="section-p1 section-m1 form" >
+                <input type="text" placeholder="Your email address" id="email" required>
+                <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+            </div>
+            <button id="modal"><a href="shop.html">Shop Now</a></button>
+            
+        </div>
+    </div>
+</div>
+
+<div id="promotionsModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('promotionsModal')">&times;</span>
+        <h2 class="modal-header">Promotions</h2>
+        <div class="modal-body">
+            <p><strong>Seasonal Sales:</strong> Enjoy up to 50% off during seasonal sales like Black Friday, New Year, and more.</p>
+            <p><strong>Daily Deals:</strong> Discover new daily deals on popular products, refreshed every 24 hours.</p>
+            <p><strong>Exclusive Launches:</strong> Get early access to new products or limited-edition items.</p>
+            <p><strong>Flash Sales:</strong> Don’t miss out on time-limited flash sales, with massive discounts on select products.</p>
+            <p><strong>Buy One, Get One:</strong> Stock up with “buy one, get one free” offers on essential products.</p>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/videoplayback.mp4" type="video/mp4" allowfullscreen>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="newspaper" class="section-p1 section-m1 form" >
+            <input type="text" placeholder="Your email address" id="email" required>
+            <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+        </div>
+        <button id="modal"><a href="shop.html">Shop Now</a></button>
+    </div>
+</div>
+
+
+<div id="happySellModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('happySellModal')">&times;</span>
+        <h2 class="modal-header">Happy Sell</h2>
+        <div class="modal-body">
+            <p><strong>Quality Assured:</strong> We handpick our products and test them to ensure they meet our quality standards.</p>
+            <p><strong>Customer Reviews:</strong> Verified reviews help guide you toward the best items for your needs.</p>
+            <p><strong>30-Day Return Policy:</strong> Your satisfaction matters; easily return products within 30 days if they’re not quite right.</p>
+            <p><strong>Gift Options:</strong> Send your loved ones gifts with customizable wrapping and personal messages.</p>
+            <p><strong>Verified Sellers:</strong> All our products come from verified sellers who meet our high standards.</p>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/Free Shipping.mp4" type="video/mp4" allowfullscreen>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="newspaper" class="section-p1 section-m1 form" >
+            <input type="text" placeholder="Your email address" id="email" required>
+            <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+        </div>
+        <button id="modal"><a href="shop.html">Shop Now</a></button>
+    </div>
+</div>
+
+
+<div id="supportModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal('supportModal')">&times;</span>
+        <h2 class="modal-header">24/7 Support</h2>
+        <div class="modal-body">
+            <p><strong>Live Chat:</strong> Get real-time assistance from our support team anytime.</p>
+            <p><strong>Phone Support:</strong> Call our customer support line for assistance with orders or product information.</p>
+            <p><strong>Email Support:</strong> Send an email and expect a quick reply from our team.</p>
+            <p><strong>Self-Help Portal:</strong> Our self-help portal provides FAQs, product guides, and order management tools.</p>
+            <p><strong>Multilingual Support:</strong> We offer support in multiple languages to serve our global customer base.</p>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/helpline.mp4" type="video/mp4" allowfullscreen>
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div id="newspaper" class="section-p1 section-m1 form" >
+            <input type="text" placeholder="Your email address" id="email" required>
+            <button class="normal mt-1 w-50%" onclick="signUp()">Sign Up</button>
+        </div>
+        <button id="modal"><a href="shop.html">Shop Now</a></button>
+
+    </div>
+</div>
+</body>
+
+</html>
